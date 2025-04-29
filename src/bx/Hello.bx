@@ -1,0 +1,7 @@
+class{
+
+    function main(){
+        println( "Hello World" )
+    }
+
+}

@@ -1,0 +1,20 @@
+class{
+
+    // Properties
+	property name="scheduler";
+	property name="runtime";
+	property name="logger";
+	property name="asyncService";
+	property name="cacheService";
+	property name="interceptorService";
+
+    function configure(){
+		scheduler.task( "My Task" )
+        .call( () -> {
+            println( "I am a lambda task: #now()#" );
+        } )
+        .every( 2, "second" );
+
+    }
+
+}

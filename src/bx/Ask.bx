@@ -1,0 +1,17 @@
+class{
+
+    function main(){
+        name = cliRead( "What is your name? " )
+        age = cliRead( "What is your age? " )
+
+        if( age < 18 ){
+            print( "You are a minor." )
+        } else {
+            print( "You are an adult." )
+        }
+
+        print( "Hello, " & name & "! You are " & age & " years old." )
+        print( "Goodbye!" )
+    }
+
+}

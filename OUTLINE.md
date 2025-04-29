@@ -57,7 +57,7 @@
 
 > Luis Majano
 
-1. Classes, Scripts, Templates, Schedulers, Modules
+1. Classes, Scripts, Templates, and Schedulers
 2. CLI Framework
 3. Examples
 4. Exercises
