@@ -1,0 +1,44 @@
+class {
+
+    void function main(){
+        // This is a simple example of a process that could be used to handle incoming emails.
+        // It could be extended to parse the email, extract attachments, or perform other actions.
+
+        // Log the start of the process
+        writeLog("ProcessMail started");
+        
+        var mailQueue = queryExecute( 
+            "SELECT * from mail_queue WHERE status = 'pending'",
+        );
+
+
+        mailQueue.each( ( item ) -> {
+            
+            // Log the processing of each mail item
+            writeLog( "Processing mail item: " & item.id );
+
+            bx:mail
+                from="boxlang@ortussolutions.com"
+                to="#item.recipient#"
+                subject="#item.subject#"
+                mimeAttach="#item.pdfFile#"
+            {
+                writeOutput( item.message );
+            }
+
+            // Update the status of the mail item to 'processed'
+            queryExecute(
+                "UPDATE mail_queue SET status = 'processed' WHERE id = ?", 
+                [item.id]
+            );
+
+            // Log the completion of processing this mail item
+            writeLog( "Mail item processed: " + item.id );
+
+        } );
+
+        // Log the completion of the process
+        writeLog("ProcessMail completed successfully");
+    }
+
+}
