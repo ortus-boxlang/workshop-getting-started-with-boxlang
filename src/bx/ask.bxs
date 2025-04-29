@@ -1,0 +1,4 @@
+name = cliRead( "What is your name? " )
+age = cliRead( "What is your age? " )
+
+println( "Hello, #name#! You are #age ?: 0# years old." )

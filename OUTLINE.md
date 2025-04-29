@@ -62,6 +62,8 @@
 3. Examples
 4. Exercises
 
+[Open](steps/scripting.md)
+
 ## MiniServer
 
 > Brad Wood

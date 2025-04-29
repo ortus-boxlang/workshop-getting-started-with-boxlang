@@ -1,0 +1,6 @@
+args = CLIGetArgs().positionals
+//println( args )
+
+println( "The sum is: " & args[ 1 ] + args[ 2 ] )
+println( "The difference is: " & args[ 1 ] - args[ 2 ] )
+println( "The product is: " & args[ 1 ] * args[ 2 ] )
