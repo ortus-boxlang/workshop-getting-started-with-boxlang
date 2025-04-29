@@ -1,0 +1,19 @@
+{
+	"modules": {
+
+		"mail": {
+			"mailServers" : [
+				{					
+					"smtp": "my.mail.server",					
+					"port": "25",					
+					"username": "foo",					
+					"password": "P455w0rd",					
+					"ssl": false,					
+					"tls": false,					
+					"idleTimeout": "10000",					
+					"lifeTimeout": "60000"
+				}
+			]
+		}
+	}
+}
