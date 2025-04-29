@@ -27,10 +27,14 @@
 
 ## Coming from CFML
 
+> Brad Wood
+
 1. Feature Audit
 2. CFTranspiler
 
 ## OS Runtime
+
+> Luis Majano
 
 1. BoxLang Home
 2. Configuration File
@@ -41,6 +45,8 @@
 
 ## IDE Introduction
 
+> Jon Clausen
+
 1. Basic Usage
 2. Running Files
 3. Running MiniServers
@@ -49,12 +55,16 @@
 
 ## Scripting
 
+> Luis Majano
+
 1. Classes, Scripts, Templates, Schedulers, Modules
 2. CLI Framework
 3. Examples
 4. Exercises
 
 ## MiniServer
+
+> Brad Wood
 
 1. IDE Usage
 2. Configuration
@@ -63,6 +73,8 @@
 
 ## CommandBox
 
+> Brad Wood
+
 1. Configuration
 2. CFConfig
 3. Examples
@@ -70,11 +82,15 @@
 
 ## Docker
 
+> Jon Clausen
+
 1. Intro
 2. Examples
 3. Exercises
 
 ## Migrating From CFML
+
+> Brad Wood
 
 1. Differences
 2. Examples
