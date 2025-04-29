@@ -17,26 +17,27 @@
 ## BoxLang Overview
 
 1. Architecture
-2. Framework Design
-3. File Types
-4. Basics & Tooling
-5. Differences From CFML
-6. IDE Capabilities Overview
-7. CLI Tools
-   1. CFML Audit
-   2. CFML Transpiler
-   3. Compiler
-   4. Scheduler
+2. Parsers
+3. BoxLang Framework
+4. Cache Engine
+5. Event Driven Language
+6. Scheduling & Task Framework
+7. CFML Compat
 8. Modules
-     1. Core Modules Overview
-     2. Custom Modules Overview
+
+## Coming from CFML
+
+1. Feature Audit
+2. CFTranspiler
 
 ## OS Runtime
 
- 1. Configuration File
- 2. REPL
- 3. BoxLang Home
- 4. Exercises
+1. BoxLang Home
+2. Configuration File
+3. REPL
+4. Exercises
+
+[Open](steps/os-runtime.md)
 
 ## IDE Introduction
 
