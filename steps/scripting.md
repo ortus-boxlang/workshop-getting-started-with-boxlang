@@ -15,3 +15,4 @@ https://github.com/ortus-boxlang/bx-demos/
 5. Create the `Calculator.bx` class that accepts two numbers and prints their sum, difference, and product.
 6. Create the `Ask.bx` class that prompts the user for their name and age, then prints a greeting message with that information.
 7. Create a `Scheduler.bx` class that runs a task every 5 seconds and prints "Task executed!" to the console.
+8. Update the `Calculator.bx` to use named arguments instead of positional: `--value1= --value2=`
