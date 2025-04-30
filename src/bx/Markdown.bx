@@ -1,0 +1,12 @@
+class{
+
+    function main( args ){
+        while( true ){
+            markdown = cliRead( "Markdown? " )
+            println( markdown( markdown ) )
+            sleep( 500 )
+            cliClear()
+        }
+    }
+
+}
