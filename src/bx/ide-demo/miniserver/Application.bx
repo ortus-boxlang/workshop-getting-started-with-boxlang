@@ -1,0 +1,7 @@
+class {
+    this.name = "miniserver-demo";
+
+    function onRequestStart(){
+       application.engine = "BoxLang"; 
+    }
+}

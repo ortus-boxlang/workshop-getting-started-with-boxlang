@@ -1,0 +1,16 @@
+class {
+
+    property name="foo";
+
+    function main(){
+        
+        variables.foo = "bar";
+        println( "Returning foo: " & foo );
+        var myStruct = {
+            "foo" : foo
+        };
+        return myStruct;
+
+    }
+
+}

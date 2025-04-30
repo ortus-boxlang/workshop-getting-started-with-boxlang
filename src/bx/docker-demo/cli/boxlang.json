@@ -1,6 +1,5 @@
 {
 	"modules": {
-
 		"mail": {
 			"mailServers" : [
 				{					

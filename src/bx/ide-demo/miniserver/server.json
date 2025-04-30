@@ -1,0 +1,9 @@
+{
+    "app" : {
+        "cfengine" : "boxlang"
+    },
+    "JVM": {
+      "args": "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8888",
+      "javaVersion": "openjdk21_jdk"
+    }
+  }

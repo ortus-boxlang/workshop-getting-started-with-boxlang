@@ -1,0 +1,11 @@
+class {
+
+    public void function foo(){
+        return "foo";
+    }
+
+    public numeric function getAsStruct(){
+        return "foo";
+    }
+
+}
