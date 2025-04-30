@@ -92,7 +92,7 @@
 
 ## Migrating From CFML
 
-> Brad Wood
+> Brad Wood, Luis Majano, Jon Clausen
 
 1. Differences
 2. Examples
