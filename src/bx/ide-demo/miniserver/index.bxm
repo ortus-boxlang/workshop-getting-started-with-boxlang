@@ -2,4 +2,4 @@
 //  engine = "Boxlang";
 </bx:script>
 
-<h1>Hello <bx:output>#applicatin.engine#</bx:output>!</h1>
+<h1>Hello <bx:output>#application.engine#</bx:output>!</h1>

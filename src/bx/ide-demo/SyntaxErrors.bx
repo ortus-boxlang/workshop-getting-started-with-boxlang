@@ -4,7 +4,7 @@ class {
         return "foo";
     }
 
-    public numeric function getAsStruct(){
+    public struct function getAsStruct(){
         return "foo";
     }
 
