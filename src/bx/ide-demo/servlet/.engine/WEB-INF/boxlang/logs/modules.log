@@ -1,0 +1,19 @@
+[2025-04-30T17:01:55,302] [main] [INFO ] [MODULES] + Starting up Module Service... 
+[2025-04-30T17:01:55,305] [main] [INFO ] [MODULES] + ModuleService: Added an external module path: [/Users/lmajano/Sites/training/workshop-getting-started-with-boxlang/src/bx/ide-demo/servlet/.engine/WEB-INF/boxlang/modules] 
+[2025-04-30T17:01:55,684] [main] [INFO ] [MODULES] + Module Service: Registered module [esapi@1.3.1+6] in [373] ms from [/Users/lmajano/Sites/training/workshop-getting-started-with-boxlang/src/bx/ide-demo/servlet/.engine/WEB-INF/boxlang/modules/bx-esapi] 
+[2025-04-30T17:01:55,780] [main] [INFO ] [MODULES] + Module Service: Registered module [mysql@1.0.0-SNAPSHOT] in [95] ms from [/Users/lmajano/Sites/training/workshop-getting-started-with-boxlang/src/bx/ide-demo/servlet/.engine/WEB-INF/boxlang/modules/bx-mysql] 
+[2025-04-30T17:01:55,781] [main] [INFO ] [MODULES] + Module Service: Activated module [esapi@1.3.1+6] in [1] ms 
+[2025-04-30T17:01:55,782] [main] [INFO ] [MODULES] + Module Service: Activated module [mysql@1.0.0-SNAPSHOT] in [0] ms 
+[2025-04-30T17:01:55,782] [main] [INFO ] [MODULES] + Module Service: Activated [2] modules in [1] ms 
+[2025-04-30T17:01:55,782] [main] [INFO ] [MODULES] + Module Service started in [480] ms 
+[2025-04-30T17:04:10,467] [Thread-0] [INFO ] [MODULES] + Module Service: Unloaded module [esapi@1.3.1+6] 
+[2025-04-30T17:04:10,467] [Thread-0] [INFO ] [MODULES] + Module Service: Unloaded module [mysql@1.0.0-SNAPSHOT] 
+[2025-04-30T17:04:10,467] [Thread-0] [INFO ] [MODULES] + Module Service shutdown 
+[2025-04-30T17:05:59,888] [main] [INFO ] [MODULES] + Starting up Module Service... 
+[2025-04-30T17:05:59,890] [main] [INFO ] [MODULES] + ModuleService: Added an external module path: [/Users/lmajano/Sites/training/workshop-getting-started-with-boxlang/src/bx/ide-demo/servlet/.engine/WEB-INF/boxlang/modules] 
+[2025-04-30T17:05:59,975] [main] [INFO ] [MODULES] + Module Service: Registered module [esapi@1.3.1+6] in [75] ms from [/Users/lmajano/Sites/training/workshop-getting-started-with-boxlang/src/bx/ide-demo/servlet/.engine/WEB-INF/boxlang/modules/bx-esapi] 
+[2025-04-30T17:06:00,001] [main] [INFO ] [MODULES] + Module Service: Registered module [mysql@1.0.0-SNAPSHOT] in [25] ms from [/Users/lmajano/Sites/training/workshop-getting-started-with-boxlang/src/bx/ide-demo/servlet/.engine/WEB-INF/boxlang/modules/bx-mysql] 
+[2025-04-30T17:06:00,003] [main] [INFO ] [MODULES] + Module Service: Activated module [esapi@1.3.1+6] in [1] ms 
+[2025-04-30T17:06:00,003] [main] [INFO ] [MODULES] + Module Service: Activated module [mysql@1.0.0-SNAPSHOT] in [0] ms 
+[2025-04-30T17:06:00,003] [main] [INFO ] [MODULES] + Module Service: Activated [2] modules in [1] ms 
+[2025-04-30T17:06:00,003] [main] [INFO ] [MODULES] + Module Service started in [115] ms 

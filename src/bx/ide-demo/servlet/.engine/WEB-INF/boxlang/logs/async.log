@@ -1,0 +1,9 @@
+[2025-04-30T17:01:55,217] [main] [INFO ] [ASYNC] AsyncService.onStartup() 
+[2025-04-30T17:04:10,468] [Thread-0] [INFO ] [ASYNC] AsyncService.onShutdown() 
+[2025-04-30T17:04:10,469] [ForkJoinPool.commonPool-worker-1] [INFO ] [ASYNC] Executor (io-tasks) shutdown executed, waiting for tasks to finalize... 
+[2025-04-30T17:04:10,469] [ForkJoinPool.commonPool-worker-1] [INFO ] [ASYNC] Executor (io-tasks) shutdown complete 
+[2025-04-30T17:04:10,469] [Thread-0] [INFO ] [ASYNC] Executor (scheduled-tasks) shutdown executed, waiting for tasks to finalize... 
+[2025-04-30T17:04:10,469] [Thread-0] [INFO ] [ASYNC] Executor (scheduled-tasks) shutdown complete 
+[2025-04-30T17:04:10,472] [Thread-0] [INFO ] [ASYNC] Executor (cpu-tasks) shutdown executed, waiting for tasks to finalize... 
+[2025-04-30T17:04:10,474] [Thread-0] [INFO ] [ASYNC] Executor (cpu-tasks) shutdown complete 
+[2025-04-30T17:05:59,725] [main] [INFO ] [ASYNC] AsyncService.onStartup() 

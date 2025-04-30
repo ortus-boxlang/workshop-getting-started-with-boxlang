@@ -1,9 +1,18 @@
 {
-    "app" : {
-        "cfengine" : "boxlang"
+    "app":{
+        "cfengine":"boxlang",
+        "serverHomeDirectory":"./.engine"
     },
-    "JVM": {
-      "args": "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8888",
-      "javaVersion": "openjdk21_jdk"
+    "web":{
+        "http":{
+            "port":8080
+        }
+    },
+    "JVM":{
+        "args":"-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8888",
+        "javaVersion":"openjdk21_jdk"
+    },
+    "scripts":{
+        "onServerInitialInstall":"install bx-esapi,bx-mysql"
     }
-  }
+}

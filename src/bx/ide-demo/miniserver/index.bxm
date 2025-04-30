@@ -1,5 +1,5 @@
 <bx:script>
-//  engine = "Boxlang";
+ foo="bar";
 </bx:script>
 
 <h1>Hello <bx:output>#application.engine#</bx:output>!</h1>
