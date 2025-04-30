@@ -1,5 +1,0 @@
-[2025-04-30T17:01:55,281] [main] [INFO ] [RUNTIME] + Function Service: Registered [525] global functions in [63] ms 
-[2025-04-30T17:01:55,292] [main] [INFO ] [RUNTIME] + Component Service: Registered [49] components in [10] ms 
-[2025-04-30T17:04:10,474] [Thread-0] [INFO ] [RUNTIME] FunctionService.onShutdown() 
-[2025-04-30T17:05:59,808] [main] [INFO ] [RUNTIME] + Function Service: Registered [525] global functions in [82] ms 
-[2025-04-30T17:05:59,830] [main] [INFO ] [RUNTIME] + Component Service: Registered [49] components in [21] ms 
