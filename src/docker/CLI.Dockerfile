@@ -19,5 +19,5 @@ COPY src/bx/docker-demo/cli/ProcessMail.bx /app/ProcessMail.bx
 # Copy our config file
 COPY src/bx/docker-demo/cli/boxlang.json /usr/local/lib/boxlang/config/boxlang.json
 
-CMD ["bolxang", "ProcessMail.bx"]
+CMD ["boxlang", "ProcessMail.bx"]
 
