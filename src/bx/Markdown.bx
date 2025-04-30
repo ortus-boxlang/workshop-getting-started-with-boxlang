@@ -4,7 +4,7 @@ class{
         while( true ){
             markdown = cliRead( "Markdown? " )
             println( markdown( markdown ) )
-            sleep( 500 )
+            sleep( 3000 )
             cliClear()
         }
     }
