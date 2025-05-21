@@ -1,6 +1,6 @@
 class{
 
-    function main(){
+    function main( args=[] ){
         name = cliRead( "What is your name? " )
         age = cliRead( "What is your age? " )
 
